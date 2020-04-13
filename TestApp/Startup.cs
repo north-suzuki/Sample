@@ -32,7 +32,7 @@ namespace TestApp
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World2!");
+                    await context.Response.WriteAsync("Hello World2! GitHubと連携!!");
                 });
             });
         }
